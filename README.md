@@ -12,3 +12,14 @@ After cleanup
 
 ![Alt text](/ambragin.mp3_cleaned.png?raw=true "After cleanup")
 
+Usage:
+
+```bash
+# ./purefy.sh /tmp/ambragin.mp3
+# [make spectrogram for /tmp/ambragin.mp3]
+# [get noise sample from /tmp/ambragin.mp3]
+# [generate noise profile]
+# [cleanup /tmp/ambragin.mp3]
+# [cleanup all other noise]
+# [wav to mp3 convertation, need installed lame codec]
+```
